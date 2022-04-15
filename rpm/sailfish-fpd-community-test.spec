@@ -9,7 +9,7 @@ Name:       sailfish-fpd-community-test
 # << macros
 
 Summary:    FPD Test Application
-Version:    1.0
+Version:    1.1.0
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE
