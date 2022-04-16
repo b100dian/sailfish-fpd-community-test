@@ -10,6 +10,14 @@ Page {
     property var mainPage
     property bool started: false
 
+    Rectangle {
+        x: 445
+        y: 1715
+        width: 190
+        height: 190
+        color: "green"
+    }
+
     SilicaFlickable {
         anchors.fill: parent
         contentHeight: column.height
