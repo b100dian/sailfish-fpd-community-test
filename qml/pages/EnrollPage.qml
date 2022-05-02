@@ -11,11 +11,12 @@ Page {
     property bool started: false
 
     Rectangle {
-        x: 445
-        y: 1715
-        width: 190
-        height: 190
-        color: "green"
+        x: 445 - 190
+        y: 1715 - 190
+        width: 190 * 2
+        height: 190 * 2
+        radius: 190 * 2
+        color: "white"
     }
 
     SilicaFlickable {
